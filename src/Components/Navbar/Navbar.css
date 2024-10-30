@@ -1,0 +1,203 @@
+.myNav {
+  font-family: "Zain", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  border-radius: 0;
+  -ms-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+  overflow: visible;
+  border: none;
+  z-index: 9999910000000000;
+  width: 100%;
+  height: 55px;
+  line-height: 55px;
+  background-color: #2196F3;
+  color: #fff;
+}
+@media (max-width: 992px) {
+  .myNav {
+    flex-direction: row-reverse !important;
+  }
+}
+.myNav .navbar-toggler {
+  border: none !important;
+  color: #fff !important;
+  float: right;
+}
+.myNav .navbar-toggler:focus {
+  box-shadow: none;
+}
+.myNav::before, .myNav::after {
+  display: table;
+  content: " ";
+}
+.myNav .navbar-icon {
+  display: flex;
+  gap: 10px;
+  height: 100%;
+}
+.myNav .navbar-icon .category-icon-container {
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center center;
+  margin: 0 0 0 15px;
+  text-align: center;
+}
+.myNav .navbar-icon .category-icon-container i {
+  font-size: 5vh;
+  color: #fff;
+}
+.myNav .navbar-icon .bars {
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+}
+.myNav .navbar-icon .bars::before, .myNav .navbar-icon .bars::after {
+  font-family: "Font Awesome 5 Free";
+  vertical-align: middle;
+  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  top: -6px;
+  font-size: 25px;
+  transform: scale(0);
+  transition: all 0.3s;
+}
+.myNav .navbar-icon .bars::before {
+  content: "\f0c9";
+  transform: scale(1);
+}
+.myNav .navbar-icon .bars::after {
+  content: "\f00d";
+  transform: scale(0);
+}
+.myNav .navbar-icon .bars.toggled::before {
+  transform: scale(0) !important;
+}
+.myNav .navbar-icon .bars.toggled::after {
+  transform: scale(1) rotateZ(180deg);
+}
+.myNav .navbar-icon h1.lesson-title-container {
+  display: inline-block;
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: normal;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myNav .navbar-icon h1.lesson-title-container img {
+  width: 40px;
+  height: 40px;
+}
+.myNav .navbar-icon .separateing-line-container {
+  border-right: solid 1px #414550;
+  border-left: solid 1px #00bb70;
+  display: inline-block;
+  overflow: hidden;
+  width: 1px;
+  height: 26px;
+  margin: 17px 5px;
+}
+.myNav .navbar-icon .level-title-container {
+  display: inline-flex;
+  color: #fff;
+  padding: 23px 0;
+  font-size: 22px;
+  font-weight: bold;
+  height: 100%;
+  align-items: center;
+}
+.myNav .collapse {
+  justify-content: end;
+  height: 100%;
+  background: transparent;
+}
+.myNav .collapse.show {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2196F3 !important;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 55px;
+  height: 55px;
+}
+.myNav .collapse.show .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+.myNav .collapse div {
+  height: 100%;
+}
+.myNav .collapse .navbar-nav {
+  width: 60%;
+  height: 100%;
+  justify-content: end;
+}
+.myNav .collapse .navbar-nav .nav-item {
+  position: relative;
+  padding: 0 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myNav .collapse .navbar-nav .nav-item .nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myNav .collapse .navbar-nav .nav-item .nav-link.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  flex-direction: row-reverse;
+  gap: 8px;
+}
+.myNav .collapse .navbar-nav .nav-item.lang .nav-link h1 {
+  cursor: pointer;
+}
+.myNav .collapse .navbar-nav .nav-item.lang::after {
+  position: absolute;
+  content: "";
+  width: 1px;
+  height: 61%;
+  background-color: #000;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.myNav .collapse .navbar-nav .nav-item a i {
+  font-size: 20px;
+  color: #fff;
+}
+.myNav .collapse .navbar-nav .nav-item img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.myNav .collapse .navbar-nav .nav-item .nametop {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.myNav .collapse .navbar-nav .nav-item .arrow {
+  font-size: 1.2rem;
+}
+.myNav .collapse .navbar-nav .nav-item h1 {
+  color: #fff;
+  margin: 0px !important;
+  line-height: normal;
+  font-size: 27px;
+}/*# sourceMappingURL=Navbar.css.map */

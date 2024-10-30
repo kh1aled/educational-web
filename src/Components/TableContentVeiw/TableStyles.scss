@@ -1,0 +1,52 @@
+@use "../../styles/variables/colors" as *;
+@use "../../styles/variables/mediaQuery" as *;
+@use "../../styles/mixins" as *;
+
+
+.table-content-view {
+
+    .table {
+      width: 100%;
+      border-collapse: separate !important;
+      margin: 25px 0;
+      font-size: 17px;
+      
+      thead {
+        tr {
+          th {
+            background: #414550;
+            color: #fff;
+            padding: 10px 10px;
+            border: 1px solid #fff;
+          }
+        }
+      }
+
+      tbody {
+        tr {
+          border-bottom: 1px solid #dddddd;
+          &:nth-of-type(even) {
+            background-color: #f3f3f3;
+          }
+          td {
+            padding: 10px 10px !important;
+            border: 1px solid #eee !important;
+
+            a {
+              color: $mainColor;
+              display: inline-block;
+              margin: auto;
+              float: none;
+              cursor: pointer;
+              text-decoration: none;
+            }
+            &.buttons {
+              i {
+                padding-left: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

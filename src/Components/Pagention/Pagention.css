@@ -1,0 +1,29 @@
+.pagination {
+  justify-content: end;
+}
+.pagination li.active span {
+  z-index: 3;
+  color: #fff;
+  background-color: #2196F3;
+  border-color: #2196F3;
+  cursor: default;
+  border-radius: 50%;
+}
+.pagination li span,
+.pagination li a {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none !important;
+  line-height: 16px !important;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+}
+.pagination .dataTables_info span {
+  font-size: 15px !important;
+  margin: 0 2px !important;
+  color: #2196F3;
+}/*# sourceMappingURL=Pagention.css.map */

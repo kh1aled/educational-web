@@ -1,0 +1,21 @@
+
+{
+    "games":{
+        "game1":{
+           "media_id":"9345",
+           "media_cat":"5",
+            "media_agree":"12590",
+            "src_attr":"https://www.manhal.com/platform/media/12590/e9aeb15398cca0df289d4c86a514660e.html",
+            "title":"Islamic - Prayer Application",
+            "image_src":"https://www.manhal.com/platform/media/12590/thumbnail_small.jpg"
+        },
+        "game2":{
+           "media_id":"9346",
+           "media_cat":"5",
+            "media_agree":"12613",
+            "src_attr":"https://www.manhal.com/platform/media/12613/2715ab5084a884fa4bc39c9457e8881f.html",
+            "title":"Islamic - Prayer Application",
+            "image_src":"https://www.manhal.com/platform/media/12613/thumbnail_small.jpg"
+        }
+    }
+}

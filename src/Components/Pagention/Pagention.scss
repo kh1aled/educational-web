@@ -1,0 +1,41 @@
+@use "../../styles/variables/colors" as *;
+@use "../../styles/variables/mediaQuery" as *;
+@use "../../styles/mixins" as *;
+
+.pagination {
+    justify-content: end;
+    li {
+      &.active {
+        span {
+          z-index: 3;
+          color: #fff;
+          background-color: $mainColor;
+          border-color: $mainColor;
+          cursor: default;
+          border-radius: 50%;
+        }
+      }
+      span,
+      a {
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none !important;
+        line-height: 16px !important;
+        font-weight: bold;
+        font-size: 16px;
+        color: #000;
+      }
+    }
+    .dataTables_info{
+       
+        span {
+          font-size: 15px !important;
+          margin: 0 2px !important;
+          color: $mainColor;
+          
+        }
+      }
+  }

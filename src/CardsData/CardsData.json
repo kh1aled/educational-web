@@ -1,0 +1,124 @@
+{
+    "cards":{
+        "card1":{
+            "imgSrc":"https://www.manhal.com/platform/media/12590/thumbnail_small.jpg",
+            "cardTitle":"Islamic",
+            "cardSubject":"التربية الإسلامية",
+            "Grade":"الصف الأول",
+            "Teacher":"naheel naser",
+            "id":1420
+        },
+        "card2":{
+            "imgSrc":"https://www.manhal.com/platform/media/8895/thumbnail_small.jpg",
+            "cardTitle":"Arabic",
+            "cardSubject":"اللغة العربية",
+            "Grade":"الصف الأول",
+            "Teacher":"naheel naser",
+            "id":1419
+        },
+        "card3":{
+            "imgSrc":"https://sonono.manhal.com/images/default_thumb/url.png",
+             "cardTitle":"Outside",
+            "cardSubject":"اللغة العربية",
+            "Grade":"Kindergarten 1",
+            "Teacher":"admin",
+            "id":1416
+        },
+        "card4":{
+            "imgSrc":"https://www.manhal.com/platform/stories/74/story/79/images/pic.jpg",
+             "cardTitle":"Stories",
+            "cardSubject":"اللغة الإنجليزية",
+            "Grade":"First Grade",
+            "Teacher":"Aseel",
+            "id":1291
+        },
+        "card5":{
+            "imgSrc":"https://www.manhal.com/platform/media/13825/thumbnail_small.jpg",
+             "cardTitle":"Worksheets",
+            "cardSubject":"اللغة الإنجليزية",
+            "Grade":"First Grade",
+            "Teacher":"Aseel",
+            "id":1289
+        },
+        "card6":{
+            "imgSrc":"https://www.manhal.com/platform/media/7755/thumbnail_small.jpg",
+             "cardTitle":"Educational Cards",
+            "cardSubject":"اللغة الإنجليزية",
+            "Grade":"First Grade",
+            "Teacher":"Aseel",
+            "id":1288
+        },
+        "card7":{
+            "imgSrc":"https://www.manhal.com/platform/media/13725/thumbnail_small.jpg",
+             "cardTitle":"Interactive Games",
+            "cardSubject":"اللغة الإنجليزية",
+            "Grade":"First Grade",
+            "Teacher":"Aseel",
+            "id":1287
+        },
+        "card8":{
+            "imgSrc":"https://www.manhal.com/platform/media/8895/thumbnail_small.jpg",
+             "cardTitle":"Applications",
+          "cardSubject":"اللغة الإنجليزية",
+          "Grade":"First Grade",
+          "Teacher":"Aseel",
+          "id":1286
+        },
+        "card9":{
+            "imgSrc":"https://www.manhal.com/platform/media/6212/thumbnail_small.jpg",
+             "cardTitle":"حرف الباء",
+            "cardSubject":"اللغة العربية",
+            "Grade":"Kindergarten 1",
+            "Teacher":"Aseel",
+            "id":1201
+        },
+        "card10":{
+            "imgSrc":"https://www.manhal.com/platform/media/6212/thumbnail_small.jpg",
+             "cardTitle":"حرف الباء",
+            "cardSubject":"اللغة العربية",
+            "Grade":"Kindergarten 1",
+            "Teacher":"naheel naser",
+            "id":1177
+        },
+        "card11":{
+            "imgSrc":"https://www.manhal.com/platform/media/8895/thumbnail_small.jpg",
+             "cardTitle":"حروفي",
+            "cardSubject":"اللغة العربية",
+            "Grade":"Kindergarten 1",
+            "Teacher":"Aseel",
+            "id":1147
+        },
+        "card12":{
+            "imgSrc":"https://www.manhal.com/platform/media/10047/thumbnail_small.jpg",
+             "cardTitle":"سورة الإخلاص",
+            "cardSubject":"التربية الإسلامية",
+            "Grade":"Kindergarten 1",
+            "Teacher":"naheel naser",
+            "id":1138
+        },
+        "card13":{
+            "imgSrc":"https://www.manhal.com/platform/media/10046/thumbnail_small.jpg",
+             "cardTitle":"سورة الفاتحة",
+            "cardSubject":"التربية الإسلامية",
+            "Grade":"Kindergarten 1",
+            "Teacher":"naheel naser",
+            "id":1137
+        },
+        "card14":{
+            "imgSrc":"https://www.manhal.com/platform/media/6293/thumbnail_small.jpg",
+             "cardTitle":"حرف الياء - KG1",
+            "cardSubject":"اللغة العربية",
+            "Grade":"Kindergarten 1",
+            "Teacher":"naheel naser",
+            "id":1112
+        },
+        "card15":{
+            "imgSrc":"https://www.manhal.com/platform/media/6292/thumbnail_small.jpg",
+             "cardTitle":"حرف الواو - KG1",
+            "cardSubject":"اللغة العربية",
+            "Grade":"Kindergarten 1",
+            "Teacher":"naheel naser",
+            "id":1111
+        }
+    }
+}
